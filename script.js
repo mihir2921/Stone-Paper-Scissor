@@ -53,4 +53,5 @@ reset.addEventListener("click", ()=>{
     compScore.innerText=0;
     result.classList.remove("loss")
     result.classList.remove("won")
+    result.innerText="Pick your Move"
 })
