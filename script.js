@@ -49,6 +49,8 @@ choices.forEach((choice)=>{
 })})
 
 reset.addEventListener("click", ()=>{
+    humanScore=0
+    compScore=0
     humanScore.innerText=0;
     compScore.innerText=0;
     result.classList.remove("loss")
